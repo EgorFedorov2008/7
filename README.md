@@ -10,6 +10,14 @@ class Migration(migrations.Migration):
     dependencies = [
     ]
 
+    
+    def __str__(self):
+        if user operations(id, title, description, price, auction, created_at, updated_at):
+            print(f"Advertisement{operations}")
+        
+        
+
+    
     operations = [
         migrations.CreateModel(
             name="Asvertisement",
